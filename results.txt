@@ -1,0 +1,100 @@
+---------------------------------------------
+1234123412341234
+First Digits of card: 123412
+Lower Range: 622126
+Upper Range: 622925
+First Digits of card (upper): 123412
+---------------------------------------------
+1234123412341234
+First Digits of card: 1234
+Lower Range: 3528
+Upper Range: 3589
+First Digits of card (upper): 1234
+---------------------------------------------
+1234123412341234
+First Digits of card: 123412
+Lower Range: 222100
+Upper Range: 272099
+First Digits of card (upper): 123412
+---------------------------------------------
+1234123412341234
+First Digits of card: 123412
+Lower Range: 506099
+Upper Range: 506198
+First Digits of card (upper): 123412
+---------------------------------------------
+1234123412341234
+First Digits of card: 123412
+Lower Range: 650002
+Upper Range: 650027
+First Digits of card (upper): 123412
+---------------------------------------------
+5060991234561234
+First Digits of card: 506099
+Lower Range: 622126
+Upper Range: 622925
+First Digits of card (upper): 506099
+---------------------------------------------
+5060991234561234
+First Digits of card: 5060
+Lower Range: 3528
+Upper Range: 3589
+First Digits of card (upper): 5060
+---------------------------------------------
+5060991234561234
+First Digits of card: 506099
+Lower Range: 222100
+Upper Range: 272099
+First Digits of card (upper): 506099
+5060991234561234 matches
+---------------------------------------------
+5061001234561230
+First Digits of card: 506100
+Lower Range: 622126
+Upper Range: 622925
+First Digits of card (upper): 506100
+---------------------------------------------
+5061001234561230
+First Digits of card: 5061
+Lower Range: 3528
+Upper Range: 3589
+First Digits of card (upper): 5061
+---------------------------------------------
+5061001234561230
+First Digits of card: 506100
+Lower Range: 222100
+Upper Range: 272099
+First Digits of card (upper): 506100
+5061001234561230 matches
+---------------------------------------------
+6500021234561230
+First Digits of card: 650002
+Lower Range: 622126
+Upper Range: 622925
+First Digits of card (upper): 650002
+Discover
+---------------------------------------------
+6500021234561230
+First Digits of card: 650002
+Lower Range: 622126
+Upper Range: 622925
+First Digits of card (upper): 650002
+---------------------------------------------
+5061981234561230
+First Digits of card: 506198
+Lower Range: 622126
+Upper Range: 622925
+First Digits of card (upper): 506198
+---------------------------------------------
+5061981234561230
+First Digits of card: 5061
+Lower Range: 3528
+Upper Range: 3589
+First Digits of card (upper): 5061
+---------------------------------------------
+5061981234561230
+First Digits of card: 506198
+Lower Range: 222100
+Upper Range: 272099
+First Digits of card (upper): 506198
+5061981234561230 matches

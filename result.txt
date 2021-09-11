@@ -1,0 +1,48 @@
+---------------------------------------------
+1234123412341234
+First Digits of card: 1234123
+Lower Range: 622126
+Upper Range: 622925
+First Digits of card (upper): 1234123
+---------------------------------------------
+1234123412341234
+First Digits of card: 12341
+Lower Range: 3528
+Upper Range: 3589
+First Digits of card (upper): 12341
+---------------------------------------------
+1234123412341234
+First Digits of card: 1234123
+Lower Range: 222100
+Upper Range: 272099
+First Digits of card (upper): 1234123
+---------------------------------------------
+1234123412341234
+First Digits of card: 1234123
+Lower Range: 506099
+Upper Range: 506198
+First Digits of card (upper): 1234123
+---------------------------------------------
+1234123412341234
+First Digits of card: 1234123
+Lower Range: 650002
+Upper Range: 650027
+First Digits of card (upper): 1234123
+---------------------------------------------
+5060991234561234
+First Digits of card: 5060991
+Lower Range: 622126
+Upper Range: 622925
+First Digits of card (upper): 5060991
+---------------------------------------------
+5060991234561234
+First Digits of card: 50609
+Lower Range: 3528
+Upper Range: 3589
+First Digits of card (upper): 50609
+---------------------------------------------
+5060991234561234
+First Digits of card: 5060991
+Lower Range: 222100
+Upper Range: 272099
+First Digits of card (upper): 5060991
