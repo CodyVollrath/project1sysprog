@@ -1,3 +1,7 @@
+"""
+This script file is deals with reading data from a file
+and parsing csv data seperatly
+"""
 def get_file_data(filename):
     """
     Gets the file content from the file path that is passed into the function

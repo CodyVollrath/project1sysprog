@@ -22,18 +22,30 @@ class TestIsValidCreditCard(unittest.TestCase):
         self.assertFalse(utils.is_valid(card_number))
 
     def test_invalid_card_long(self):
+        """
+        Test invalid card too long
+        """
         card_number = '41021234123412341123111'
         self.assertFalse(utils.is_valid(card_number))
 
     def test_valid_card_no_spaces(self):
+        """
+        Test valid card entry with no spaces or hyphens
+        """
         card_number = '4102123412341234'
         self.assertTrue(utils.is_valid(card_number))
 
     def test_valid_card_spaces(self):
+        """
+        Test valid card entry with spaces
+        """
         card_number = '4102 1234 1234 1234'
         self.assertTrue(utils.is_valid(card_number))
 
     def test_valid_card_hyphens(self):
+        """
+        Test valid card entry with hyphens
+        """
         card_number = '4102-1234-1234-1234'
         self.assertTrue(utils.is_valid(card_number))
 
@@ -42,42 +54,63 @@ class TestGetCardIssuer(unittest.TestCase):
     Tests public method determine_card_issuer for utils.py
     """
     def test_no_card_issuer(self):
+        """
+        Test no card issuer
+        """
         card_number = '1234123412341234'
         file_data = parser.get_file_data('credit_card_types.ssv').replace('\n','*')
         parsed_csv = parser.parse_csv(file_data)
         self.assertTrue(utils.determine_card_issuer(card_number, parsed_csv) == None)
 
     def test_amex(self):
+        """
+        Test for amex
+        """
         card_number = '378282246310005'
         file_data = parser.get_file_data('credit_card_types.ssv').replace('\n','*')
         parsed_csv = parser.parse_csv(file_data)
         self.assertTrue(utils.determine_card_issuer(card_number, parsed_csv) == 'AmericanExpress')
 
     def test_verve_lowerrange(self):
+        """
+        Test lower range in the range prefix for verve
+        """
         card_number = '5060991234561234'
         file_data = parser.get_file_data('credit_card_types.ssv').replace('\n','*')
         parsed_csv = parser.parse_csv(file_data)
         self.assertTrue(utils.determine_card_issuer(card_number, parsed_csv) == 'Verve')
     
     def test_verve_midrange(self):
+        """
+        Test middle range in the range prefix for verve
+        """
         card_number = '5061001234561230'
         file_data = parser.get_file_data('credit_card_types.ssv').replace('\n','*')
         parsed_csv = parser.parse_csv(file_data)
         self.assertTrue(utils.determine_card_issuer(card_number, parsed_csv) == 'Verve')
         
     def test_verve_upperrange(self):
+        """
+        Test upper range in range prefix for verve
+        """
         card_number = '5061981234561230'
         file_data = parser.get_file_data('credit_card_types.ssv').replace('\n','*')
         parsed_csv = parser.parse_csv(file_data)
         self.assertTrue(utils.determine_card_issuer(card_number, parsed_csv) == 'Verve')
 
     def test_visa(self):
+        """
+        Test for visa
+        """
         card_number = '4012123412341234'
         file_data = parser.get_file_data('credit_card_types.ssv').replace('\n','*')
         parsed_csv = parser.parse_csv(file_data)
         self.assertTrue(utils.determine_card_issuer(card_number, parsed_csv) == 'Visa')
 
     def test_visa_electron(self):
+        """
+        Test for visa electron
+        """
         card_number = '4026123412341234'
         file_data = parser.get_file_data('credit_card_types.ssv').replace('\n','*')
         parsed_csv = parser.parse_csv(file_data)
